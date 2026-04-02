@@ -1,0 +1,47 @@
+body {  
+background-attachment: fixed; 
+background-size: cover;      
+    background-repeat: no-repeat; 
+    background-position: center; 
+    margin: 0;
+    height: 100vh;    
+    background-image: url("Imagenes/rain.png")        
+}
+
+.contenedor {
+  display: flex;             
+  gap: 20px;               
+}
+
+.rectangulo {
+  background-color: rgba(0, 0, 0, 0.6); /* negro semitransparente*/
+  color: white;                         /* texto en blanco */
+  padding: 20px 40px;                   /* espacio interno */
+  border-radius: 8px;                   /* esquinas redondeadas */
+  max-width: 400px;                     /* ancho máximo */
+  margin: 0px right;                 /* centrado horizontal */
+  text-align: cover;                  /* texto centrado */
+  font-family: Arial, sans-serif;
+}
+
+.rectangulo1 {
+  background-color: rgba(0, 0, 0, 0.6); 
+  color: white;                         
+  padding: 20px 20px;                   
+  border-radius: 8px;                   
+  max-width: 300px;                     
+  margin: 0px auto;                  
+  text-align: cover;                  
+  font-family: Arial, sans-serif;
+}
+.rectangulo2 {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;                         
+  padding: 20px 40px;                   
+  border-radius: 8px;                   
+  max-width: 400px;                    
+  margin: 0px right;                   
+  text-align: cover;                 
+  font-family: Arial, sans-serif;
+}
+

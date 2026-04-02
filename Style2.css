@@ -1,0 +1,49 @@
+body {  
+background-attachment: fixed; 
+background-size: cover;      
+    background-repeat: no-repeat; 
+    background-position: center; 
+    margin: 0;
+    height: 100vh;    
+    background-image: url("Imagenes/Outskirts_region_screen.png")        
+}
+.contenedor {
+  display: flex;             
+  gap: 20px;               
+}
+
+.rectangulo {
+  background-color: rgba(0, 0, 0, 0.6); 
+  color: white;                    
+  padding: 20px 40px;                 
+  border-radius: 8px;                
+  max-width: 400px;              
+  margin: 0px auto;                  
+  text-align: cover;                
+  font-family: Arial, sans-serif;
+}
+
+.rectangulo1 {
+  background-color: rgba(0, 0, 0, 0.6); 
+  color: white;                       
+  padding: 20px 40px;                  
+  border-radius: 8px;                   
+  max-width: 400px;                     
+  margin: 50px auto;                               
+  text-align: cover;   
+}
+
+.contenedor2 {
+  display: flex;             
+  gap: 20px;               
+}
+
+.rectangulo2 {
+  background-color: rgba(0, 0, 0, 0.6); 
+  color: white;                       
+  padding: 20px 20px;                  
+  border-radius: 70px;                   
+  max-width: 350px;                     
+  margin: 0px auto;                            
+  text-align: cover;   
+}
